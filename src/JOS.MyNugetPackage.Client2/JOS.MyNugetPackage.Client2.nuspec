@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>JOS.MyNugetPackage.Client2</id>
+    <version>1.7.0</version>
+    <title>$title$</title>
+    <authors>Josef Ottosson</authors>
+    <owners>Josef Ottosson</owners>
+    <description>Really awesome package</description>
+    <dependencies>
+      <group targetFramework="netstandard2.0" />
+    </dependencies>
+  </metadata>
+   <files>
+     <file src="bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+  </files>
+</package>
